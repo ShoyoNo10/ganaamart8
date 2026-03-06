@@ -12,7 +12,10 @@ type Props = {
 
 export default function StoryDeck({ items }: Props) {
   const [i, setI] = useState<number>(0);
-  const cur = useMemo<MemoryItem | null>(() => (items[i] ? items[i] : null), [items, i]);
+  const cur = useMemo<MemoryItem | null>(
+    () => (items[i] ? items[i] : null),
+    [items, i],
+  );
 
   if (!cur) {
     return (
@@ -62,12 +65,13 @@ export default function StoryDeck({ items }: Props) {
               sizes="(max-width: 768px) 100vw, 540px"
               priority={i < 2}
             />
-            <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/70 to-transparent">
-              <div className="text-lg font-extrabold">{cur.caption}</div>
-            </div>
           </div>
+                <div className=" p-4 bg-gradient-to-t from-black/70 to-transparent">
+        <div className="text-lg font-extrabold">{cur.caption}</div>
+      </div>
         </motion.div>
       </AnimatePresence>
+
 
       <div className="flex gap-3">
         <button

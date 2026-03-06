@@ -53,7 +53,10 @@ function clamp(n: number, a: number, b: number): number {
   return Math.max(a, Math.min(b, n));
 }
 
-function pointFromTouch(t: Touch): { x: number; y: number } {
+function pointFromTouch(t: { clientX: number; clientY: number }): {
+  x: number;
+  y: number;
+} {
   return { x: t.clientX, y: t.clientY };
 }
 
