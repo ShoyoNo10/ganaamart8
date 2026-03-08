@@ -313,10 +313,10 @@ export default function BlockBlastGame({ targetScore }: Props) {
             {targetScore}+ оноо авлаа — онцгой бэлэг нээгдлээ 💝
           </div>
           <Link
-            href="/final"
+            href="/asuult"
             className="inline-flex mt-3 px-5 py-3 rounded-full font-extrabold bg-pink-500 text-black hover:opacity-90"
           >
-            Захиагаа үзэх
+             үзэх
           </Link>
         </div>
       )}

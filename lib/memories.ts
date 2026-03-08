@@ -5,26 +5,42 @@ export type MemoryItem = {
 };
 
 export const MEMORIES: MemoryItem[] = [
-  { id: "m01", src: "/first.jpg", caption: "Бидний анхны зураг📷" },
+  { id: "m01", src: "/anh.jpg", caption: "Бидний анхны зураг📷" },
   {
     id: "m02",
-    src: "/call.jpg",
-    caption: "Дэр өөлхөн инээдийг нь халаазэээ вууааакакакака 🫶",
+    src: "/gentel.jpg",
+    caption: "Надруу ширтэх тэр хөөрхөн харц 👀",
   },
   {
     id: "m03",
-    src: "/gar.jpg",
-    caption: "Чамтай хамт бүх зүйл гоё болдог✨ хар болтлоо воллдсон өдөр 🏐",
+    src: "/filter.jpg",
+    caption: "",
   },
   {
     id: "m04",
-    src: "/untah.jpg",
-    caption: "Ниээнанананаа нойлсож буй гүнж нумуудаа🥰",
+    src: "/hsrts.jpg",
+    caption: "",
   },
   {
     id: "m05",
-    src: "/last.jpg",
-    caption: "Бидний сүүлчийн зураг цаашдаа илүү их дурсамжуудыг бүтээх болно гэдэгт итгэлтэй байна❤️",
+    src: "/ineed.jpg",
+    caption: "",
   },
+    {
+    id: "m06",
+    src: "/erhleh.jpg",
+    caption: "Minii ganjjj erhljj jdgg hailmaan🥺",
+  },
+      {
+    id: "m07",
+    src: "/zurh.jpg",
+    caption: "",
+  },
+        {
+    id: "m08",
+    src: "/smile.jpg",
+    caption: "",
+  },
+  
   // ... 10-20 хүртэл нэм
 ];
