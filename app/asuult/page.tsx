@@ -54,7 +54,7 @@ const questions: Question[] = [
       { id: "b", text: "Mobile Legends" },
       { id: "c", text: "Roblox" },
     ],
-    correctOptionId: "a",
+    correctOptionId: "b",
   },
   {
     id: 5,
